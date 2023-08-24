@@ -1,0 +1,9 @@
+.vscode
+node_modules
+.env
+cache
+artifacts
+deployments
+package-lock.json
+contract_helper_old.csv
+docs
