@@ -6,11 +6,8 @@ import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
-/**
- * @title Pawnfi's PawnMultiSig Contract
- * @author Pawnfi
- */
-contract PawnMultiSig {
+
+contract MultiSig {
     using ECDSA for bytes32;
     using Address for address;
     using EnumerableSet for EnumerableSet.AddressSet;
